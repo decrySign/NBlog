@@ -27,4 +27,12 @@ public class VisitLogRemark {
 	 * 备注
 	 */
 	private String remark;
+
+	public String getContent() {
+		return content;
+	}
+
+	public String getRemark() {
+		return remark;
+	}
 }

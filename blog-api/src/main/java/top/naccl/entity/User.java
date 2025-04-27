@@ -43,6 +43,21 @@ public class User implements UserDetails {
 		return authorityList;
 	}
 
+	// 实现 UserDetails 中的 getUsername() 方法
+	@Override
+	public String getUsername() {
+		return this.username;
+	}
+	// 其他必需的方法
+	@Override
+	public String getPassword() {
+		return this.password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 	@JsonIgnore
 	@Override
 	public boolean isAccountNonExpired() {

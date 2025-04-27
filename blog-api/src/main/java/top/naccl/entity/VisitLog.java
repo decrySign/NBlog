@@ -33,6 +33,7 @@ public class VisitLog {
 	private Date createTime;//访问时间
 	private String userAgent;
 
+
 	public VisitLog(String uuid, String uri, String method, String behavior, String content, String remark, String ip, Integer times, String userAgent) {
 		this.uuid = uuid;
 		this.uri = uri;
@@ -44,5 +45,15 @@ public class VisitLog {
 		this.times = times;
 		this.createTime = new Date();
 		this.userAgent = userAgent;
+	}
+
+	// 新增 setParam 方法
+	public void setParam(String param) {
+		this.param = param;
+	}
+
+	// 新增 getParam 方法（可选）
+	public String getParam() {
+		return this.param;
 	}
 }

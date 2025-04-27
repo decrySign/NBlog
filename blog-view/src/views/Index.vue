@@ -37,9 +37,9 @@
 		<BlogPasswordDialog/>
 
 		<!--APlayer-->
-		<div class="m-mobile-hide">
+		<!-- <div class="m-mobile-hide">
 			<meting-js :server="siteInfo.playlistServer" :id="siteInfo.playlistId" type="playlist" fixed="true" theme="#25CCF7" v-if="siteInfo.playlistServer && siteInfo.playlistId"></meting-js>
-		</div>
+		</div> -->
 		<!--回到顶部-->
 		<el-backtop style="box-shadow: none;background: none;z-index: 9999;">
 			<img src="/img/paper-plane.png" style="width: 40px;height: 40px;">

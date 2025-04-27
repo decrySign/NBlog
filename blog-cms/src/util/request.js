@@ -2,9 +2,12 @@ import axios from 'axios'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import {Message} from 'element-ui'
-
+// 'http://localhost:8090/admin/',
 const request = axios.create({
-	baseURL: 'http://localhost:8090/admin/',
+	baseURL: 
+	process.env.NODE_ENV === 'production'
+	? 'https://api.hqcode.cn/admin/'
+	: 'http://localhost:8090/admin/',
 	timeout: 5000
 })
 

@@ -62,12 +62,14 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- lombok -->
+        <!-- Lombok Dependency -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.18.22</version> <!-- 使用最新版本 -->
+            <scope>provided</scope> <!-- 或者可以选择 "compile" 如果你希望它在编译时就可用 -->
         </dependency>
+
         <!-- jwt -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>

@@ -36,4 +36,8 @@ public class BlogDetail {
 
 	private Category category;//文章分类
 	private List<Tag> tags = new ArrayList<>();//文章标签
+
+	public String getTitle() {
+		return title;
+	}
 }

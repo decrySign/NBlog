@@ -39,4 +39,13 @@ public class ExceptionLog {
 		this.createTime = new Date();
 		this.userAgent = userAgent;
 	}
+	// 添加 setParam 方法
+	public void setParam(String param) {
+		this.param = param;
+	}
+
+	// 添加 getParam 方法（可选）
+	public String getParam() {
+		return this.param;
+	}
 }

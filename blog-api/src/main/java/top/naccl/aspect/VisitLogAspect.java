@@ -1,5 +1,5 @@
 package top.naccl.aspect;
-
+import top.naccl.model.dto.VisitLogRemark;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -13,7 +13,6 @@ import top.naccl.constant.RedisKeyConstants;
 import top.naccl.entity.VisitLog;
 import top.naccl.entity.Visitor;
 import top.naccl.enums.VisitBehavior;
-import top.naccl.model.dto.VisitLogRemark;
 import top.naccl.model.vo.BlogDetail;
 import top.naccl.model.vo.Result;
 import top.naccl.service.RedisService;

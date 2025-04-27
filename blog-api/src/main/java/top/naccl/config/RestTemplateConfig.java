@@ -21,6 +21,7 @@ public class RestTemplateConfig {
 	@Autowired
 	private ProxyProperties proxyProperties;
 
+
 	/**
 	 * 默认的RestTemplate
 	 *
@@ -44,4 +45,5 @@ public class RestTemplateConfig {
 		requestFactory.setConnectTimeout(proxyProperties.getTimeout());
 		return new RestTemplate(requestFactory);
 	}
+
 }

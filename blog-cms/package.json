@@ -1,8 +1,8 @@
 {
   "name": "blog-cms",
   "version": "2.0.0",
-  "description": "NBlog cms",
-  "author": "Naccl <i@naccl.top>",
+  "description": "ALongBlog cms",
+  "author": "",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "axios": "0.24.0",
-    "core-js": "3.6.5",
+    "core-js": "^3.41.0",
     "cos-js-sdk-v5": "^1.4.10",
     "echarts": "4.9.0",
     "element-ui": "2.13.2",

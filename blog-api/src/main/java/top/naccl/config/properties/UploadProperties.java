@@ -32,4 +32,16 @@ public class UploadProperties {
 	 * 本地文件路径映射
 	 */
 	private String resourcesLocations;
+
+	public String getAccessPath() {
+		return accessPath;
+	}
+
+	public String getPath() {
+		return path;
+	}
+
+	public String getResourcesLocations() {
+		return resourcesLocations;
+	}
 }

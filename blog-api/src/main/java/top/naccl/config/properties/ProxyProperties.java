@@ -35,4 +35,16 @@ public class ProxyProperties {
 	 * @see SimpleClientHttpRequestFactory#setConnectTimeout(int)
 	 */
 	private Integer timeout;
+
+	public Integer getPort() {
+		return port;
+	}
+
+	public Integer getTimeout() {
+		return timeout;
+	}
+
+	public String getHost() {
+		return host;
+	}
 }

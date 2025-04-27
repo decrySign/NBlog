@@ -32,6 +32,15 @@ public class Result {
 		this.data = data;
 	}
 
+	public Integer getCode() {
+		return code;
+	}
+
+	public Object getData() {
+		return data;
+	}
+
+
 	public static Result ok(String msg, Object data) {
 		return new Result(200, msg, data);
 	}
